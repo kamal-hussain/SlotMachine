@@ -1,0 +1,37 @@
+// styles.scss
+
+.slot-machine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .display {
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+
+    .reels {
+      display: flex;
+
+      .reel {
+        border: 1px solid black;
+        width: 150px;
+        height: 100%;
+      }
+    }
+  }
+
+  .controls {
+    margin-top: 20px;
+
+    .spin {
+      font-size: 20px;
+      padding: 10px 20px;
+    }
+
+    .balance {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  }
+}
